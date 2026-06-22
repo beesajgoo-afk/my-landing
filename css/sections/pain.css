@@ -1,0 +1,46 @@
+.pain {
+  background: linear-gradient(180deg, var(--bg-primary) 0%, #0d0820 50%, var(--bg-primary) 100%);
+}
+
+.pain__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.pain__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--border-radius);
+  transition: border-color var(--transition-base);
+}
+
+.pain__item:hover {
+  border-color: var(--accent-1-border);
+}
+
+.pain__icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.pain__item p {
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.pain__outro {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  font-family: var(--font-display);
+}

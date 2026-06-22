@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/sections/hero.css">
+  <link rel="stylesheet" href="css/sections/pain.css">
 </head>
 <body>
 
@@ -83,7 +84,35 @@
   </section>
 
   <!-- Секция 2: Боль -->
-  <section class="pain" id="pain"><!-- Task 5 --></section>
+  <section class="pain" id="pain">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Знакомая ситуация?</span>
+        <h2>Звучит знакомо?</h2>
+      </div>
+
+      <ul class="pain__list">
+        <li class="pain__item reveal-left">
+          <span class="pain__icon">😔</span>
+          <p>Сайт устарел, стыдно показывать — а новый всё никак не сделать</p>
+        </li>
+        <li class="pain__item reveal-left" style="--delay: 0.1s">
+          <span class="pain__icon">⏱️</span>
+          <p>Тратишь часы на рутину: таблицы, пересылки, ручной ввод данных</p>
+        </li>
+        <li class="pain__item reveal-left" style="--delay: 0.2s">
+          <span class="pain__icon">✍️</span>
+          <p>Нанимал копирайтеров — они не понимают твой бизнес и пишут мимо</p>
+        </li>
+        <li class="pain__item reveal-left" style="--delay: 0.3s">
+          <span class="pain__icon">🤖</span>
+          <p>Слышал про AI, но не знаешь, как реально встроить его в работу</p>
+        </li>
+      </ul>
+
+      <p class="pain__outro reveal-fade">Именно с этим приходят ко мне.</p>
+    </div>
+  </section>
 
   <!-- Секция 3: Услуги -->
   <section class="services" id="services"><!-- Task 6 --></section>
