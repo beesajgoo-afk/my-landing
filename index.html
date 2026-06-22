@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/sections/hero.css">
 </head>
 <body>
 
@@ -43,7 +44,43 @@
   </nav>
 
   <!-- Секция 1: Hero -->
-  <section class="hero" id="hero"><!-- Task 4 --></section>
+  <section class="hero" id="hero">
+    <!-- Частицы фона -->
+    <div id="tsparticles"></div>
+
+    <!-- Spotlight за курсором -->
+    <div class="hero__spotlight"></div>
+
+    <div class="container hero__container">
+      <div class="hero__content">
+        <span class="label">Цифровой мастер</span>
+
+        <h1 class="hero__title">
+          Строю AI-системы и&nbsp;автоматизации,
+          <span class="hero__title-accent">которые убирают рутину</span>
+          и&nbsp;приносят деньги малому бизнесу
+        </h1>
+
+        <p class="hero__subtitle">
+          Елена Бисерова —&nbsp;<span id="typed-role"></span>
+        </p>
+
+        <div class="hero__trust">
+          <span class="tag">Малый бизнес в России</span>
+          <span class="badge-available">Беру новых клиентов</span>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#" class="btn btn-primary magnetic" id="hero-cta">
+            Написать в Telegram
+          </a>
+          <a href="#cases" class="btn btn-ghost">
+            Посмотреть работы ↓
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Секция 2: Боль -->
   <section class="pain" id="pain"><!-- Task 5 --></section>
