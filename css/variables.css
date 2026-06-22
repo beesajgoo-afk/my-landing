@@ -7,6 +7,13 @@
   --accent-2:      #06b6d4;
   --accent-glow:   rgba(124, 58, 237, 0.4);
   --accent-2-glow: rgba(6, 182, 212, 0.3);
+  --status-green:        #4ade80;
+  --status-green-bg:     rgba(74, 222, 128, 0.1);
+  --status-green-border: rgba(74, 222, 128, 0.2);
+  --accent-2-bg:         rgba(6, 182, 212, 0.1);
+  --accent-2-border:     rgba(6, 182, 212, 0.2);
+  --accent-1-ring:       rgba(124, 58, 237, 0.5);
+  --accent-1-card-glow:  rgba(124, 58, 237, 0.15);
   --text-primary:  #f8fafc;
   --text-muted:    #94a3b8;
   --glass-border:  rgba(255, 255, 255, 0.08);
