@@ -1,5 +1,5 @@
 .pain {
-  background: linear-gradient(180deg, var(--bg-primary) 0%, #0d0820 50%, var(--bg-primary) 100%);
+  background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-pain-mid) 50%, var(--bg-primary) 100%);
 }
 
 .pain__list {
