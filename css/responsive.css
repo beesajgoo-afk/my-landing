@@ -1,0 +1,54 @@
+/* Responsive CSS — Task 14 */
+
+/* ─── Tablet: 768px ─── */
+@media (max-width: 768px) {
+
+  /* Nav */
+  .nav__links a:not(.nav__cta) { display: none; }
+
+  /* Hero */
+  .hero { min-height: 90vh; }
+
+  /* Services */
+  .services__grid { grid-template-columns: 1fr; }
+
+  /* Cases */
+  .cases__grid { grid-template-columns: 1fr; }
+  .testimonials__grid { grid-template-columns: 1fr; }
+
+  /* Contact */
+  .contact__inner { flex-direction: column; }
+
+}
+
+/* ─── Mobile: 480px ─── */
+@media (max-width: 480px) {
+
+  :root {
+    --section-padding: 4rem 1rem;
+  }
+
+  /* Nav */
+  .nav { padding: 1rem; }
+  .nav__logo { font-size: 1rem; }
+
+  /* Hero */
+  .hero__title { font-size: 1.9rem; }
+
+  /* Pain */
+  .pain__list { grid-template-columns: 1fr; }
+
+  /* FAQ */
+  .faq__question { font-size: 0.9rem; }
+
+  /* Contact */
+  .contact__inner { padding: 1.5rem 1rem; }
+  .contact__content h2 { font-size: 1.6rem; }
+
+}
+
+/* ─── Очень маленький: 360px ─── */
+@media (max-width: 360px) {
+  h1 { font-size: 1.7rem; }
+  .hero__actions { gap: 0.75rem; }
+}
