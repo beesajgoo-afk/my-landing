@@ -1,0 +1,48 @@
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.services__icon {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.services__card h3 {
+  margin: 0.75rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.services__card p {
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.services__deliverables {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.services__deliverables li {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.services__deliverables li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent-2);
+  font-size: 0.8rem;
+}
+
+.services__outro {
+  text-align: center;
+  color: var(--text-muted);
+}
